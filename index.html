@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="zh-TW">
+
+<head>
+    <title>期末成績計算器</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>期末成績計算器:)</h1>
+    <p id="subtitle">這個網頁可以幫你計算期末成績,看看你是否能拿到學分。</p>
+    <table>
+        <caption><strong>成績範圍</strong></caption>
+
+        <tr>
+            <th id="trash"><strong>分數</strong></th>
+            <th><strong>結果</strong></th>
+        </tr>
+        <tr>
+            <td id="trash">60⬆</td>
+            <td><b>及格了,獲得學分!</b></td>
+        </tr>
+        <tr>
+            <td id="trash">40~59</td>
+            <td><b>可以參加補考。</b></td>
+        </tr>
+        <tr>
+            <td id="trash">39⬇</td>
+            <td id="pitiful"><strong>可憐... :(</strong></td>
+        </tr>
+    </table>
+    <script src="scripts.js"></script>
+    <form id="fm1">
+        <input id="ex1" type="number" placeholder="一段成績"><br></br>
+        <input id="ex2" type="number" placeholder="二段成績"><br></br>
+        <input id="ex3" type="number" placeholder="三段成績"><br></br>
+        <input id="ne" type="number" placeholder="平時成績"><br></br>
+        <button id="ccl" onclick="_ccl()">計算成績</button>
+    </form>
+    <p id="creator">©CREATED BY <a href="https://www.instagram.com/im_keno1212?igsh=MW11aWlkaWFmZXdyNQ%3D%3D&utm_source=qr">KENO</a> AND <a href="https://www.instagram.com/kenny._.chen_?igsh=bXRwMWpxOW44dWxs">KENNY</a> :)</p>
+    <img id="img" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png" alt="CC BY-NC 4.0">
+</body>
+</html>

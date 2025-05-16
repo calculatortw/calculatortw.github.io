@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+#subtitle {
+    text-align: center;
+    font-weight: normal;
+}
+table{
+    width:15%;
+}
+table td, th{
+    border:2px groove black;
+}
+#trash{
+    height:35px;
+}
+#pitiful{
+    color: rgb(143, 3, 3);
+}
+#ex1, #ex2, #ex3, #ne{
+   position:absolute;
+   right:46%;
+}
+#creator {
+    color:rebeccapurple;
+    text-align: right;
+}
+#img{
+   position:absolute;
+   bottom:100;
+   right:0;
+   width:150px;
+}
+#ccl{
+   position:absolute;
+   right:50%;  
+}
