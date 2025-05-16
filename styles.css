@@ -24,6 +24,10 @@ table td, th{
    position:absolute;
    right:46%;
 }
+#ccl{
+    position:absolute;
+    right:46%;  
+}
 #creator {
     color:rebeccapurple;
     text-align: right;
@@ -33,8 +37,4 @@ table td, th{
    bottom:100;
    right:0;
    width:150px;
-}
-#ccl{
-   position:absolute;
-   right:50%;  
 }
