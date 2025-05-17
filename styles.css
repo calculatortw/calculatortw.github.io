@@ -20,21 +20,22 @@ table td, th{
 #pitiful{
     color: rgb(143, 3, 3);
 }
-#ex1, #ex2, #ex3, #ne{
-   position:absolute;
-   right:46%;
+#fm1{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
 }
-#ccl{
-    position:absolute;
-    right:46%;  
+form input{
+    display: block;
+    margin: 0% auto;
 }
 #creator {
     color:rebeccapurple;
     text-align: right;
 }
 #img{
-   position:absolute;
-   bottom:100;
-   right:0;
-   width:150px;
+    position:absolute;
+    bottom:100;
+    right:0;
+    width:150px;
 }
