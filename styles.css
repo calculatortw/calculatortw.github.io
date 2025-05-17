@@ -25,10 +25,6 @@ table td, th{
     margin: auto;
     text-align: center;
 }
-form input{
-    display: block;
-    margin: 0% auto;
-}
 #creator {
     color:rebeccapurple;
     text-align: right;
