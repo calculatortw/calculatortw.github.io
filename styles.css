@@ -15,7 +15,7 @@ table td, th{
     border:2px groove black;
 }
 #trash{
-    height:35px;
+    height:35px;/*-.-- .- .- */
 }
 #pitiful{
     color: rgb(143, 3, 3);
@@ -34,4 +34,7 @@ table td, th{
     bottom:100;
     right:0;
     width:150px;
+}
+#flag{
+    color: white;
 }

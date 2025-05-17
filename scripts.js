@@ -1,7 +1,7 @@
 function _ccl(){
     let x1=document.getElementById("ex1").value
     let x2=document.getElementById("ex2").value
-    let x3=document.getElementById("ex3").value
+    let x3=document.getElementById("ex3").value//-. -.-- .-.. 
     let xn=document.getElementById("ne").value
     let x11=parseFloat(x1)
     let x22=parseFloat(x2)
